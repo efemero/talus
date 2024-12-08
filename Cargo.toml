@@ -1,0 +1,9 @@
+[package]
+name = "talus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+chrono = { version = "0.4.38", features = ["unstable-locales"] }
+voca_rs = "1.15.2"
