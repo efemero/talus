@@ -6,4 +6,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.94"
 chrono = { version = "0.4.38", features = ["unstable-locales"] }
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = { version = "1.0.215", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["full"] }
 voca_rs = "1.15.2"
